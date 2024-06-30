@@ -31,3 +31,25 @@ const myFunction=function(){
 }
 
 console.log(typeof myFunction)
+
+// memory:
+// stack(primitive),heap(non-primitive)
+
+let me="Siddhant"
+let anotherMe=me
+anotherMe="Siddhant Rai"
+console.log(me);
+console.log(anotherMe);
+
+let userOne={
+    email: "sid@gamil.co",
+    upi: "fhef@sbi"
+}
+
+let userTwo=userOne
+
+userTwo.email="Siddhant@gmail.com"
+
+console.log(userOne.email);
+
+console.log(userTwo.email);
