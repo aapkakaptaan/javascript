@@ -49,3 +49,4 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue([100,200,300,400]));
 console.log(returnSecondValue(myNewArray));
+
