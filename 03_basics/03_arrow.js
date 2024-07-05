@@ -43,8 +43,3 @@ console.log(add_Two(3,5));
 
 // console.log(addTwo(2,5));
 // console.log(addTw(2,5));
-
-const arr=[2,34,4]
-arr.array.forEach(element => {
-    
-});
